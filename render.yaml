@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: scatch
+    displayName: Scatch
+    runtime: node
+    repo: https://github.com/Sidhukumar00029/scatch
+    branch: main
+    buildCommand: npm install
+    startCommand: node app.js
+    envVars:
+      - key: SESSION_SECRET
+        sync: false
+      - key: MONGO_URI
+        sync: false
+      - key: JWT_KEY
+        sync: false
+    port: 3000

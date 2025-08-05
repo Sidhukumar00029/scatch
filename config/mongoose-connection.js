@@ -4,7 +4,7 @@ const dbgr = require('debug')('development:mongoose');
 
 
 mongoose
-.connect(`${config.get("MONGODB_URI")}/scatch`)
+.connect(`${process.env.MONGO_URI}/scatch`)
 .then(function() {
     dbgr("MongoDB connected");
     console.log("MongoDB connected");
