@@ -1,0 +1,9 @@
+name,price,image,bgcolor,panelcolor,textcolor,availability,discount,category
+1 Bag,499,1bag,#fce4ec,#f8bbd0,#880e4f,In Stock,10%,Handbag
+2 Bag,599,2bag,#e3f2fd,#90caf9,#0d47a1,In Stock,15%,Tote
+3 Bag 1,699,3bag 1,#e8f5e9,#a5d6a7,#1b5e20,Out of Stock,5%,Backpack
+4 Bag,799,4bag,#fff3e0,#ffcc80,#e65100,In Stock,20%,Duffel
+5 Bag,899,5bag,#f3e5f5,#ce93d8,#4a148c,Limited Stock,25%,Satchel
+6 Bag,999,6bag,#ede7f6,#b39ddb,#311b92,In Stock,18%,Shoulder Bag
+7 Bag,1099,7bag,#f1f8e9,#c5e1a5,#33691e,In Stock,30%,Messenger
+Image 80,1199,image 80,#fff8e1,#ffe082,#ff6f00,In Stock,12%,Crossbody
